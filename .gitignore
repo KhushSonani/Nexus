@@ -6,3 +6,19 @@ server/node_modules/
 agents.md
 AGENTS.md
 .agents/
+
+# Postman
+*.postman_collection.json
+*.postman_environment.json
+
+# Build and logs
+build/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# IDE and OS
+.vscode/
+.idea/
+Thumbs.db
